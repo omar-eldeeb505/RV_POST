@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="like_count" type="id" />
+    <item name="img_post" type="id" />
+    <item name="profile_image" type="id" />
+    <item name="profile_name" type="id" />
+    <item name="time_ic" type="id" />
+    <item name="imageView" type="id" />
+    <item name="text_post" type="id" />
+    <item name="arroe" type="id" />
+    <item name="profile_image2" type="id" />
+    <item name="share" type="id" />
+    <item name="action_liaout" type="id" />
+</resources>
