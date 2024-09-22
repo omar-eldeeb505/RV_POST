@@ -16,16 +16,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.facebook_timeline)
         recyclerView=findViewById(R.id.rv_posts)
         list= mutableListOf()
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
-        (list as MutableList<Post>).add(Post(R.drawable.profile,"Welcome to my world",11.5))
+        for(i in 1..20 ) {
+            (list as MutableList<Post>).add(Post(R.drawable.profile, "Hi,I am Omar Eldeeb", 11.5))
+        }
         adapter= PostAdapter(list)
         recyclerView.adapter=adapter
         recyclerView.layoutManager=LinearLayoutManager(this)
